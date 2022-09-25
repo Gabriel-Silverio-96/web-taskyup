@@ -12,6 +12,7 @@ const Home: NextPage = () => {
         <meta property="title" content="Organize as suas notas e tarefas with TaskYup" />
         <meta property="type" content="website"/>
         <meta property="url" content="https://taskyup.com"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
