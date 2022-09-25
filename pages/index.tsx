@@ -8,7 +8,10 @@ const Home: NextPage = () => {
     <div className={style.container}>
       <Head>
         <title>TaskYup</title>
-        <meta name="description" content="Lorem ipsum" />
+        <meta name="description" content="Create notes, texts, and kanban to organize your day. Super easy and fast" />
+        <meta property="title" content="Organize as suas notas e tarefas with TaskYup" />
+        <meta property="type" content="website"/>
+        <meta property="url" content="https://taskyup.com"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
