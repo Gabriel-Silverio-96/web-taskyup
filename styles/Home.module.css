@@ -40,3 +40,51 @@
 .call_to_action_container figure {
     text-align: center;
 }
+
+.card_container h2 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;    
+}
+
+
+.card {
+    padding: 3rem;  
+    background-color: #090909;  
+    max-width: 450px;
+}
+
+.card_header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.badge {
+    padding: 0.4rem;
+    color: #fff;
+    font-size: 0.7rem;
+    background-color: #535353;
+    width: fit-content;
+    border-radius: 0.5rem;
+}
+
+.card h3 {
+    color: #fff;
+}
+
+.quote {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #9C10FF;
+    padding: 5rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}

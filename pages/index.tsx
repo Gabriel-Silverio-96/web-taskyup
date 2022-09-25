@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <header>
-        <Image src="/taskyup.svg" alt="Logo TaskYup" width={100} height={25} />
+        <Image src="/taskyup.svg" alt="Logo TaskYup" width={125} height={50} />
 
         <nav>
           <a
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
       </header>
 
       <main>
-        <div className={style.call_to_action_container}>
+        <section className={style.call_to_action_container}>
           <h1>
             New way
             <br /> to <span>organize</span>
@@ -49,7 +49,72 @@ const Home: NextPage = () => {
               height={909}
             />
           </figure>
-        </div>
+        </section>
+
+        <section className={style.card_container}>
+          <h2>Create and organize</h2>
+          <div className={style.cards}>
+            <div className={style.card}>
+              <h3>Notes</h3>
+              <p>Create notes to never forget your assignment</p>
+            </div>
+            <div className={style.card}>
+              <div className={style.card_header}>
+                <h3>Text</h3>
+                <span className={style.badge}>Comming soon</span>
+              </div>
+              <p>
+                Organize your text quickly using markdown, create lists, tables,
+                to-do lists and more
+              </p>
+            </div>
+            <div className={style.card}>
+              <div className={style.card_header}>
+                <h3>Kanban</h3>
+                <span className={style.badge}>Comming soon</span>
+              </div>
+              <p>
+                Control the flow of tasks and activities for your team or
+                project
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className={style.quote}>
+          <h2>
+            For every minute spent
+            <br /> organizing, an hour is earned
+          </h2>
+        </section>
+
+        <footer>
+          <hr color="#929292" />
+          <div className="footer_container">
+            <Image
+              src="/taskyup.svg"
+              alt="Logo TaskYup"
+              width={125}
+              height={50}
+            />
+          <nav>
+            <a
+              target="_blank"
+              href="https://app.taskyup.com/auth/signin"
+              rel="noopener noreferrer"
+            >
+              Sign in
+            </a>
+            <a
+              target="_blank"
+              href="https://app.taskyup.com/auth/signup"
+              rel="noopener noreferrer"
+            >
+              <button>Sign up</button>
+            </a>
+          </nav>
+          </div>
+        </footer>
       </main>
     </div>
   );

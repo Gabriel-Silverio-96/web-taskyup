@@ -48,3 +48,22 @@ button {
   color: #fff;
   cursor: pointer;
 }
+
+footer hr {
+  height: 0.1px;
+  border: 0px;
+}
+
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 0rem;
+}
+
+.footer_container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
