@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Create notes, texts, and kanban to organize your day. Super easy and fast" />
         <meta property="title" content="Organize as suas notas e tarefas with TaskYup" />
         <meta property="type" content="website"/>
-        <meta property="url" content="https://taskyup.com"/>
+        <meta property="url" content="https://taskyup.vercel.app"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -22,14 +22,14 @@ const Home: NextPage = () => {
         <nav>
           <a
             target="_blank"
-            href="https://www.taskyup.com/auth/signin"
+            href="https://taskyup.com/auth/signin"
             rel="noopener noreferrer"
           >
             Sign in
           </a>
           <a
             target="_blank"
-            href="https://www.taskyup.com/auth/signup"
+            href="https://taskyup.com/auth/signup"
             rel="noopener noreferrer"
           >
             <button>Sign up</button>
@@ -104,14 +104,14 @@ const Home: NextPage = () => {
           <nav>
             <a
               target="_blank"
-              href="https://www.taskyup.com/auth/signin"
+              href="https://taskyup.com/auth/signin"
               rel="noopener noreferrer"
             >
               Sign in
             </a>
             <a
               target="_blank"
-              href="https://www.taskyup.com/auth/signup"
+              href="https://taskyup.com/auth/signup"
               rel="noopener noreferrer"
             >
               <button>Sign up</button>
