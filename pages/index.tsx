@@ -22,14 +22,14 @@ const Home: NextPage = () => {
         <nav>
           <a
             target="_blank"
-            href="https://app.taskyup.com/auth/signin"
+            href="https://www.taskyup.com/auth/signin"
             rel="noopener noreferrer"
           >
             Sign in
           </a>
           <a
             target="_blank"
-            href="https://app.taskyup.com/auth/signup"
+            href="https://www.taskyup.com/auth/signup"
             rel="noopener noreferrer"
           >
             <button>Sign up</button>
@@ -104,14 +104,14 @@ const Home: NextPage = () => {
           <nav>
             <a
               target="_blank"
-              href="https://app.taskyup.com/auth/signin"
+              href="https://www.taskyup.com/auth/signin"
               rel="noopener noreferrer"
             >
               Sign in
             </a>
             <a
               target="_blank"
-              href="https://app.taskyup.com/auth/signup"
+              href="https://www.taskyup.com/auth/signup"
               rel="noopener noreferrer"
             >
               <button>Sign up</button>
