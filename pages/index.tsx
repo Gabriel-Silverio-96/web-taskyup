@@ -8,11 +8,17 @@ const Home: NextPage = () => {
     <div className={style.container}>
       <Head>
         <title>TaskYup</title>
-        <meta name="description" content="Create notes, texts, and kanban to organize your day. Super easy and fast" />
-        <meta property="title" content="Organize as suas notas e tarefas with TaskYup" />
-        <meta property="type" content="website"/>
-        <meta property="url" content="https://taskyup.vercel.app"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <meta
+          name="description"
+          content="Create notes, texts, and kanban to organize your day. Super easy and fast"
+        />
+        <meta
+          property="title"
+          content="Organize as suas notas e tarefas with TaskYup"
+        />
+        <meta property="type" content="website" />
+        <meta property="url" content="https://taskyup.vercel.app" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -22,14 +28,14 @@ const Home: NextPage = () => {
         <nav>
           <a
             target="_blank"
-            href="https://taskyup.com/auth/signin"
+            href="https://app-taskyup.vercel.app/auth/signin"
             rel="noopener noreferrer"
           >
             Sign in
           </a>
           <a
             target="_blank"
-            href="https://taskyup.com/auth/signup"
+            href="https://app-taskyup.vercel.app/auth/signup"
             rel="noopener noreferrer"
           >
             <button>Sign up</button>
@@ -44,7 +50,13 @@ const Home: NextPage = () => {
             <br /> to <span>organize</span>
           </h1>
           <p>Easily and quickly organize your day</p>
-          <button>Get started</button>
+          <a
+            target="_blank"
+            href="https://app-taskyup.vercel.app/auth/signup"
+            rel="noopener noreferrer"
+          >
+            <button>Get started</button>
+          </a>
           <figure>
             <Image
               src="/background.png"
@@ -101,22 +113,22 @@ const Home: NextPage = () => {
               width={125}
               height={50}
             />
-          <nav>
-            <a
-              target="_blank"
-              href="https://taskyup.com/auth/signin"
-              rel="noopener noreferrer"
-            >
-              Sign in
-            </a>
-            <a
-              target="_blank"
-              href="https://taskyup.com/auth/signup"
-              rel="noopener noreferrer"
-            >
-              <button>Sign up</button>
-            </a>
-          </nav>
+            <nav>
+              <a
+                target="_blank"
+                href="https://app-taskyup.vercel.app/auth/signin"
+                rel="noopener noreferrer"
+              >
+                Sign in
+              </a>
+              <a
+                target="_blank"
+                href="https://app-taskyup.vercel.app/auth/signup"
+                rel="noopener noreferrer"
+              >
+                <button>Sign up</button>
+              </a>
+            </nav>
           </div>
         </footer>
       </main>
