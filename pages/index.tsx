@@ -28,14 +28,14 @@ const Home: NextPage = () => {
         <nav>
           <a
             target="_blank"
-            href="https://app-taskyup.vercel.app/auth/signin"
+            href="https://taskyup.com/auth/signin"
             rel="noopener noreferrer"
           >
             Sign in
           </a>
           <a
             target="_blank"
-            href="https://app-taskyup.vercel.app/auth/signup"
+            href="https://taskyup.com/auth/signup"
             rel="noopener noreferrer"
           >
             <button>Sign up</button>
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
           <p>Easily and quickly organize your day</p>
           <a
             target="_blank"
-            href="https://app-taskyup.vercel.app/auth/signup"
+            href="https://taskyup.com/auth/signup"
             rel="noopener noreferrer"
           >
             <button>Get started</button>
@@ -116,14 +116,14 @@ const Home: NextPage = () => {
             <nav>
               <a
                 target="_blank"
-                href="https://app-taskyup.vercel.app/auth/signin"
+                href="https://taskyup.com/auth/signin"
                 rel="noopener noreferrer"
               >
                 Sign in
               </a>
               <a
                 target="_blank"
-                href="https://app-taskyup.vercel.app/auth/signup"
+                href="https://taskyup.com/auth/signup"
                 rel="noopener noreferrer"
               >
                 <button>Sign up</button>
