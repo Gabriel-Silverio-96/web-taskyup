@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className={style.container}>
       <Head>
-        <title>TaskYup</title>
+        <title>TaskYup | New way to organize</title>
         <meta
           name="description"
           content="Create notes, texts, and kanban to organize your day. Super easy and fast"
