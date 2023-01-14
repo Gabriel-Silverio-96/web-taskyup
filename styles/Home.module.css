@@ -8,10 +8,10 @@
     text-align: center;        
 }
 
-.title_main {
+.call_to_action_container h1 {
+    font-size: 5rem; 
     color: var(--color-title);
-    text-align: center;
-    font-size: 5rem;    
+    text-align: center;    
     margin-bottom: 0;
 }
 
@@ -24,10 +24,6 @@
 
 .title_emphasis:hover {    
     text-shadow: -0.250rem 0.375rem var(--color-primary);
-}
-
-.call_to_action_container h1 {
-    font-size: 5rem; 
 }
 
 @media(max-width: 700px) {

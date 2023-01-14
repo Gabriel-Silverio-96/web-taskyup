@@ -59,10 +59,10 @@ const Home: NextPage = () => {
           </a>
           <figure>
             <Image
-              src="/background.png"
+              src="/images/image-main.png"
               alt="Background TaskYup"
-              width={1034}
-              height={909}
+              width={1085}
+              height={645}
             />
           </figure>
         </section>
