@@ -44,35 +44,28 @@
 }
 
 .card_container h2 {
-    color: #fff;
+    color: var(--color-title);
     font-size: 3rem;
     text-align: center;
-}
-
-.cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;    
+    margin: 5rem 0;
 }
 
 .card {
-    padding: 3rem;  
-    background-color: #090909;  
-    max-width: 450px;
-    width: auto;
-    height: 250px;
-    display: flex;    
-    flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.card_header {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+.card h2 {
+    margin: 0;
+    text-align: left;
 }
+
+.card a {
+    color: var(--color-primary);
+}
+
 
 .badge {
     padding: 0.4rem;

@@ -71,28 +71,23 @@ const Home: NextPage = () => {
           <h2>Create and organize</h2>
           <div className={style.cards}>
             <div className={style.card}>
-              <h3>Notes</h3>
-              <p>Create notes to never forget your assignment</p>
-            </div>
-            <div className={style.card}>
-              <div className={style.card_header}>
-                <h3>Text</h3>
-                <span className={style.badge}>Comming soon</span>
+              <div>
+                <h2>Notes</h2>
+                <p>Create notes to never forget your assignment</p>
+                <a
+                  target="_blank"
+                  href="https://taskyup.com/auth/signup"
+                  rel="noopener noreferrer"
+                >
+                  Get started
+                </a>
               </div>
-              <p>
-                Organize your text quickly using markdown, create lists, tables,
-                to-do lists and more
-              </p>
-            </div>
-            <div className={style.card}>
-              <div className={style.card_header}>
-                <h3>Kanban</h3>
-                <span className={style.badge}>Comming soon</span>
-              </div>
-              <p>
-                Control the flow of tasks and activities for your team or
-                project
-              </p>
+              <Image
+                src="/images/image-notes.png"
+                alt="Figure notes"
+                width={334}
+                height={531}
+              />
             </div>
           </div>
         </section>
