@@ -45,10 +45,7 @@ const Home: NextPage = () => {
 
       <main>
         <section className={style.call_to_action_container}>
-          <h1>
-            New way
-            <br /> to <span>organize</span>
-          </h1>
+          <h1>New way to organize</h1>
           <p>Easily and quickly organize your day</p>
           <a
             target="_blank"
