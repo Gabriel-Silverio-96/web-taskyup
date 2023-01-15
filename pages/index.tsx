@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         />
         <meta
           property="title"
-          content="Organize as suas notas e tarefas with TaskYup"
+          content="Create notes, texts, and kanban to organize your day. Super easy and fast"
         />
         <meta property="type" content="website" />
         <meta property="url" content="https://taskyup.vercel.app" />
