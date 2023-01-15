@@ -45,7 +45,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
   gap: 10rem;
   padding: 1rem;
 }
@@ -73,13 +73,15 @@
 }
 
 .quote {
-    color: #fff;
+    max-width: 70rem;
+    width: auto;
+    color: var(--color-white);
     font-size: 2rem;
     text-align: center;
-    background-color: #9C10FF;
+    background-color: var(--color-primary);
     padding: 5rem;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin: 10rem auto;
+    border-radius: 1rem;
 }
 
 @media(max-width: 700px) {
