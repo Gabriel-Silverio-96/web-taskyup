@@ -24,7 +24,6 @@ const Home: NextPage = () => {
 
       <header>
         <Image src="/taskyup.svg" alt="Logo TaskYup" width={125} height={50} />
-
         <nav>
           <a
             target="_blank"
@@ -87,6 +86,50 @@ const Home: NextPage = () => {
                 alt="Figure notes"
                 width={334}
                 height={531}
+              />
+            </div>
+          </div>
+
+          <div className={style.cards}>
+            <div className={`${style.card} ${style.card_reverse}`}>
+              <div>
+                <h2>Texts</h2>
+                <p>Organize your text quickly using markdown, create lists, tables, to-do lists and more</p>
+                <a
+                  target="_blank"
+                  href="https://taskyup.com/auth/signup"
+                  rel="noopener noreferrer"
+                >
+                  Get started
+                </a>
+              </div>
+              <Image
+                src="/images/image-text.png"
+                alt="Figure texts"
+                width={334}
+                height={463}
+              />
+            </div>
+          </div>
+
+          <div className={style.cards}>
+            <div className={style.card}>
+              <div>
+                <h2>Kanban</h2>
+                <p>Control the flow of tasks and activities for your team or project</p>
+                <a
+                  target="_blank"
+                  href="https://taskyup.com/auth/signup"
+                  rel="noopener noreferrer"
+                >
+                  Get started
+                </a>
+              </div>
+              <Image
+                src="/images/image-kanban.png"
+                alt="Figure kanban"
+                width={470}
+                height={460}
               />
             </div>
           </div>

@@ -55,6 +55,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 15rem;
 }
 
 .card h2 {
@@ -66,18 +67,17 @@
     color: var(--color-primary);
 }
 
-
-.badge {
-    padding: 0.4rem;
-    color: #fff;
-    font-size: 0.7rem;
-    background-color: #535353;
-    width: fit-content;
-    border-radius: 0.5rem;
+.card div {
+    width: 20rem;
 }
 
-.card h3 {
-    color: #fff;    
+.card_reverse {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.card_reverse h2 {    
+    text-align: right;
 }
 
 .quote {
