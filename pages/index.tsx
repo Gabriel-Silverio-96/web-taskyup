@@ -116,7 +116,7 @@ const Home: NextPage = () => {
             <div className={style.card}>
               <div>
                 <h2>Kanban</h2>
-                <p>Control the flow of tasks and activities for your team or project</p>
+                <p>Control the flow of tasks and activities for your team or project.🏗️ Coming soon</p>
                 <a
                   target="_blank"
                   href="https://taskyup.com/auth/signup"
