@@ -14,7 +14,7 @@ body {
 a {
   color: var(--color-black);
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 header {
@@ -31,7 +31,7 @@ header nav {
 }
 
 p {
-  color: #929292;
+  color: var(--color-text);
 }
 
 button {
@@ -42,8 +42,8 @@ button {
   text-transform: capitalize;
   padding: 9px 16px;
   line-height: 1.75;
-  background-color: #9C10FF;
-  color: #fff;
+  background-color: var(--color-primary);
+  color: var(--color-white);
   cursor: pointer;
   border: 0;
 }
