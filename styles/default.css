@@ -7,13 +7,8 @@
 html,
 body {
   padding: 0;
-  margin: 0;
-  font-family: 'Inter', sans-serif;
+  margin: 0;  
   background: var(--color-white);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Pridi', serif;
 }
 
 a {
@@ -42,8 +37,7 @@ p {
 button {
   font-size: 0.9rem;
   min-width: 64px;
-  font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-weight: 500;  
   border-radius: 0.3125rem;
   text-transform: capitalize;
   padding: 9px 16px;

@@ -4,7 +4,7 @@ const inter = Inter({ subsets: ["latin"] });
 const pridi = Pridi({ subsets: ["latin"], weight: "700" });
 
 const globalCSS = `
-    body {
+    body, button {
         font-family: ${inter.style.fontFamily};
     }
 
