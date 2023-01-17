@@ -7,14 +7,14 @@ const Home: NextPage = () => {
   return (
     <div className={style.container}>
       <Head>
-        <title>TaskYup</title>
+        <title>TaskYup | New way to organize</title>
         <meta
           name="description"
           content="Create notes, texts, and kanban to organize your day. Super easy and fast"
         />
         <meta
           property="title"
-          content="Organize as suas notas e tarefas with TaskYup"
+          content="Create notes, texts, and kanban to organize your day. Super easy and fast"
         />
         <meta property="type" content="website" />
         <meta property="url" content="https://taskyup.vercel.app" />
@@ -24,7 +24,6 @@ const Home: NextPage = () => {
 
       <header>
         <Image src="/taskyup.svg" alt="Logo TaskYup" width={125} height={50} />
-
         <nav>
           <a
             target="_blank"
@@ -45,10 +44,10 @@ const Home: NextPage = () => {
 
       <main>
         <section className={style.call_to_action_container}>
-          <h1>
-            New way
-            <br /> to <span>organize</span>
+          <h1 className={style.title_main}>
+            New way to <span className={style.title_emphasis}>organize</span>
           </h1>
+
           <p>Easily and quickly organize your day</p>
           <a
             target="_blank"
@@ -59,10 +58,10 @@ const Home: NextPage = () => {
           </a>
           <figure>
             <Image
-              src="/background.png"
+              src="/images/image-main.png"
               alt="Background TaskYup"
-              width={1034}
-              height={909}
+              width={1085}
+              height={645}
             />
           </figure>
         </section>
@@ -71,28 +70,67 @@ const Home: NextPage = () => {
           <h2>Create and organize</h2>
           <div className={style.cards}>
             <div className={style.card}>
-              <h3>Notes</h3>
-              <p>Create notes to never forget your assignment</p>
-            </div>
-            <div className={style.card}>
-              <div className={style.card_header}>
-                <h3>Text</h3>
-                <span className={style.badge}>Comming soon</span>
+              <div>
+                <h2>Notes</h2>
+                <p>Create notes to never forget your assignment</p>
+                <a
+                  target="_blank"
+                  href="https://taskyup.com/auth/signup"
+                  rel="noopener noreferrer"
+                >
+                  Get started
+                </a>
               </div>
-              <p>
-                Organize your text quickly using markdown, create lists, tables,
-                to-do lists and more
-              </p>
+              <Image
+                src="/images/image-notes.png"
+                alt="Figure notes"
+                width={334}
+                height={531}
+              />
             </div>
-            <div className={style.card}>
-              <div className={style.card_header}>
-                <h3>Kanban</h3>
-                <span className={style.badge}>Comming soon</span>
+          </div>
+
+          <div className={style.cards}>
+            <div className={`${style.card} ${style.card_reverse}`}>
+              <div>
+                <h2>Texts</h2>
+                <p>Organize your text quickly using markdown, create lists, tables, to-do lists and more</p>
+                <a
+                  target="_blank"
+                  href="https://taskyup.com/auth/signup"
+                  rel="noopener noreferrer"
+                >
+                  Get started
+                </a>
               </div>
-              <p>
-                Control the flow of tasks and activities for your team or
-                project
-              </p>
+              <Image
+                src="/images/image-text.png"
+                alt="Figure texts"
+                width={334}
+                height={463}
+              />
+            </div>
+          </div>
+
+          <div className={style.cards}>
+            <div className={style.card}>
+              <div>
+                <h2>Kanban</h2>
+                <p>Control the flow of tasks and activities for your team or project.🏗️ Coming soon</p>
+                <a
+                  target="_blank"
+                  href="https://taskyup.com/auth/signup"
+                  rel="noopener noreferrer"
+                >
+                  Get started
+                </a>
+              </div>
+              <Image
+                src="/images/image-kanban.png"
+                alt="Figure kanban"
+                width={470}
+                height={460}
+              />
             </div>
           </div>
         </section>
