@@ -53,7 +53,11 @@ const Home: NextPage = () => {
             target="_blank"
             href="https://taskyup.com/auth/signup"
             rel="noopener noreferrer"
+            className={style.button_microinteraction}
           >
+            <span>❤️</span>
+            <span>❤️</span>
+            <span>❤️</span>
             <button>Get started</button>
           </a>
           <figure>
